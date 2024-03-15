@@ -15,8 +15,8 @@ This repository contains the source code for a Recipe Finder website, which allo
 
 ## Technologies Used
 
-- Frontend: HTML, CSS, JavaScript
-- External APIs: Recipe API
+- Frontend: HTML, CSS
+- Parallax
 
 ## Code of Conduct
 
