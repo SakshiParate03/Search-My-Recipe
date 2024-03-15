@@ -1,0 +1,71 @@
+.Parallax1,.Parallax2,.Parallax3,.Parallax4,.Parallax5{
+    height:700px;
+    position:relative;
+    opacity:0.80;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+  .Parallax1{
+    background-image:url(https://rs-menus-api.roocdn.com/images/bdf5747f-c68e-4a77-96b2-39909bbb00fc/image.jpeg?width=1200&height=630&fit=crop);
+  }
+  .Parallax2{
+    background-image:url(https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_1290/https://norecipes.com/wp-content/uploads/2017/05/chicken-biryani-12-1290x1934.jpg);
+  }
+  .Parallax3{
+    background-image:url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/gqzm7hhavzep4ili79pc);
+  }
+  .Parallax4{
+    background-image:url(https://www.recipetineats.com/wp-content/uploads/2014/12/Chicken-Shawarma_4.jpg);    
+  }
+  .Parallax5{
+    background-image:url(https://wallpapercave.com/wp/wp8329822.jpg);    
+}
+  h1.head{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    background-color: lightgrey;
+    width: 800px;
+    padding: 10px;
+    position: absolute;
+    top:7%;
+    margin-left: 22%;
+    letter-spacing: 15px;
+  } 
+#sec1,#sec2,#sec3,#sec4{
+    text-align:center;
+    padding:40px 50px;
+    background-color:#282e34;
+    color:#ddd;
+    line-height: 30px;
+  }
+h2.txt1,h2.txt2,h2.txt3,h2.txt4,h2.txt5{
+    position:absolute;
+    top:47%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:45px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+h2.txt2,h2.txt5{
+  color:rgb(255, 255, 255);
+}
+h2.txt5{
+  position:absolute;
+  top:40%;
+  font-size:75px;
+  width:75%;
+}
+h2.txt1{
+  position: absolute;
+  top:20%;
+}
+ body, html{
+    font-family:"Verdana", sans-serif;   
+    margin:0px;
+}
+  
