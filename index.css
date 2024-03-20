@@ -77,11 +77,15 @@
   width: 332px;
   height: 415px;
   object-fit: cover;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .desktop-3-child1,
 .desktop-3-inner,
 .rectangle-icon {
   left: 544px;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .desktop-3-child1,
 .rectangle-icon {
@@ -89,9 +93,22 @@
   left: 179px;
   width: 166px;
   height: 166px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.rectangle-icon:hover{
+  transform: translateY(-20px);
 }
 .desktop-3-child1 {
   left: 582px;
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+.desktop-3-child1:hover{
+  transform:translateY(-20px);      
+    
+  
 }
 .plain-barcode-labels-1 {
   position: absolute;
@@ -105,6 +122,11 @@
   left: 179px;
   width: 166px;
   object-fit: cover;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.desktop-3-child2:hover{
+  transform: translateY(-20px);
 }
 .desktop-3-child2,
 .desktop-3-child3,
@@ -113,12 +135,22 @@
   position: absolute;
   border-radius: var(--br-13xl);
   height: 166px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.rectangle-div:hover,.desktop-3-child4:hover{
+  transform: translateY(-20px);
 }
 .desktop-3-child3 {
   top: 1746px;
   left: 582px;
   width: 166px;
   object-fit: cover;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.desktop-3-child3:hover{
+  transform:translateY(-20px) ;
 }
 .desktop-3-child4,
 .rectangle-div {
@@ -145,11 +177,16 @@
   width: 321px;
   height: 419px;
   object-fit: cover;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .desktop-3-child6 {
   left: 1018px;
   width: 332px;
   height: 415px;
+}
+.desktop-3-child5:hover,.desktop-3-child6:hover,.desktop-3-child7:hover,.desktop-3-child8:hover,.desktop-3-inner:hover,.desktop-3-item:hover{
+  transform: translateY(-20px);
 }
 .idli {
   position: absolute;
@@ -170,6 +207,8 @@
   width: 332px;
   height: 415px;
   object-fit: cover;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .desktop-3-child8 {
   position: absolute;
@@ -179,8 +218,11 @@
   background-color: #e1e1e1;
   width: 1213px;
   height: 671px;
+  transition: 0.5s;
+  cursor: pointer;
   mix-blend-mode: hard-light;
 }
+
 .about-us {
   position: absolute;
   top: 345px;
@@ -287,12 +329,17 @@ button {
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: color;
+  box-shadow: 4px 4px 5.5px #131417;
+  display: flex;
+    
 }
 
 button:focus,
 button:hover {
-  color: #9D0026
-  ;
+  color: #9D0026;
+  border: 1px solid #9D0026; 
+  outline: 1px solid transparent;
+  transform: translate(-6px,-6px);
 }
 
 button:focus:after,
